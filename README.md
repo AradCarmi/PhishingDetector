@@ -115,14 +115,9 @@ To get a local copy up and running follow these simple example steps.
     </a>
 5. Toggle the "Developer Mode" button on the right side of the webpage
   <a href="https://github.com/aradcarmi/PhishingDetector">
-    <img src="images/DevMode.png" alt="Logo" width="130" height="130">
+    <img src="images/DevMode.png" alt="Logo" width="100" height="100">
     </a>
-6. 
-7.
-8. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+6. Pick Load unpack option on the left side of the webpage and upload "./Chrome Extension" folder
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 

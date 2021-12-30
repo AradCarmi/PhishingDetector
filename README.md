@@ -108,9 +108,10 @@ To get a local copy up and running follow these simple example steps.
   dataSetPath = "<Absoulte Path>"
   whiteListPath = "<Absoulte Path>"
   ```
-5. Install NPM packages
+4. Open your web browser and click on the extension icon
    ```sh
-   npm install
+   <a href="https://github.com/aradcarmi/PhishingDetector">
+    <img src="images/chromeExtension.png" alt="Logo" width="40" height="40">
    ```
 4. Enter your API in `config.js`
    ```js
@@ -119,7 +120,8 @@ To get a local copy up and running follow these simple example steps.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
+### Running
+1. 
 
 <!-- USAGE EXAMPLES -->
 ## Usage

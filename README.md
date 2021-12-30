@@ -26,11 +26,6 @@
 
   <p align="center">
     <br />
-    <a href="https://github.com/aradcarmi/PhishingDetector"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/aradcarmi/PhishingDetector">View Demo</a>
-    ·
     <a href="https://github.com/aradcarmi/PhishingDetector/issues">Report Bug</a>
     ·
     <a href="https://github.com/aradcarmi/PhishingDetector/issues">Request Feature</a>

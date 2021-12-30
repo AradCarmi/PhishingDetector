@@ -96,17 +96,19 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-Clone the PhishingProject dir using the terminal/cmd command.
-* "git clone https://github.com/AradCarmi/PhishingDetector.git"
-
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/AradCarmi/PhishingDetector.git
    ```
-3. Install NPM packages
+2. Open ./PhishingProject/Main.py
+3. Add the absolute path to the "dataSetPath" and "whiteListPath"
+  ``` sh 
+  dataSetPath = "<Absoulte Path>"
+  whiteListPath = "<Absoulte Path>"
+  ```
+5. Install NPM packages
    ```sh
    npm install
    ```

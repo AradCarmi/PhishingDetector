@@ -77,6 +77,7 @@ This project aims to detect and alert the user from phishing webpages.
 
 * [Chrome Extension](https://developer.chrome.com/docs/extensions/)
 * [Sklearn.py](https://scikit-learn.org/stable/)
+* [Pandas.py](https://pandas.pydata.org/)
 * [Express.js](https://expressjs.com/)
 * [Dataset](https://www.kaggle.com/shashwatwork/phishing-dataset-for-machine-learning)
 
@@ -97,10 +98,13 @@ This project aims to detect and alert the user from phishing webpages.
 
 
 ### Features
+
   * Feature value can be:
     * Number [0,+inf)
     * Custom [-1,0,1] (Error/No/Yes)
-    
+  
+  ---The features shown below were selected to represent the data set---
+  
   <table>
   <tr>
     <th>Feature Name</th>
@@ -165,7 +169,7 @@ This project aims to detect and alert the user from phishing webpages.
   <tr>
     <td>NumQueryComponents</td>
     <td>Number</td>
-    <td>Count the number of query components (The number of '=' after '?')</td>
+    <td>Count the number of query components (The number of '=' after '?' in the url)</td>
   </tr>
   <tr>
     <td>NumSensitiveWords</td>
@@ -186,17 +190,18 @@ To get a local copy up and running follow these simple example steps.
 ### Prerequisites
   * Download & Install Python  (Version 3.7 or later) https://www.python.org/downloads/
   * Download & Install Node.js (Version 13 or later)  https://nodejs.org/en/
+  
 ### Installation
-
 1. Clone the repo
    ```sh
    git clone https://github.com/AradCarmi/PhishingDetector.git
    ```
 2. Open ./PhishingProject/Main.py
-3. Add the absolute path to the "dataSetPath" and "whiteListPath"
+3. Add the absolute path:
   ``` sh 
   dataSetPath = "<Absoulte Path>"
   whiteListPath = "<Absoulte Path>"
+  modelPath = "<Absoulte Path>"
   ```
 4. Open your web browser and click on the extension icon and perss on "Manage Extensions"
    
@@ -222,7 +227,7 @@ To get a local copy up and running follow these simple example steps.
 2. Navigate to the "Chrome Extension" folder.
 3. Run The following command:
 ``` sh 
-  node host.js
+  node host.js <Your absolute path to project folder>
   ```
 4. Now The Extension will work and alerts for phishing sites.
 

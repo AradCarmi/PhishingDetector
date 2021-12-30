@@ -198,7 +198,8 @@ To get a local copy up and running follow these simple example steps.
    git clone https://github.com/AradCarmi/PhishingDetector.git
    ```
 2. Open "Model.py" ,"Main.py", "Features.py":
-    pip install all imports here some [guidance](https://www.youtube.com/watch?v=sIan8TOz0GA) 
+
+    pip install all imports. (here some [guidance](https://www.youtube.com/watch?v=sIan8TOz0GA))
 3. Open ./Main.py
 4. Add the absolute path(under Additives folder: dataset suffix .csv,Model suffix .sav):
   ``` sh 

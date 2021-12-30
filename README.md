@@ -108,13 +108,18 @@ To get a local copy up and running follow these simple example steps.
   dataSetPath = "<Absoulte Path>"
   whiteListPath = "<Absoulte Path>"
   ```
-4. Open your web browser and click on the extension icon
+4. Open your web browser and click on the extension icon and perss on "Manage Extensions"
    
    <a href="https://github.com/aradcarmi/PhishingDetector">
     <img src="images/chromeExtension.png" alt="Logo" width="130" height="130">
     </a>
-   
-4. Enter your API in `config.js`
+5. Toggle the "Developer Mode" button on the right side of the webpage
+  <a href="https://github.com/aradcarmi/PhishingDetector">
+    <img src="images/DevMode.png" alt="Logo" width="130" height="130">
+    </a>
+6. 
+7.
+8. Enter your API in `config.js`
    ```js
    const API_KEY = 'ENTER YOUR API';
    ```

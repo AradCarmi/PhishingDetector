@@ -197,7 +197,7 @@ To get a local copy up and running follow these simple example steps.
    git clone https://github.com/AradCarmi/PhishingDetector.git
    ```
 2. Open ./PhishingProject/Main.py
-3. Add the absolute path(dataset suffix .csv,Model suffix .sav):
+3. Add the absolute path(under Additives folder: dataset suffix .csv,Model suffix .sav):
   ``` sh 
   dataSetPath = "<Absoulte Path>"
   whiteListPath = "<Absoulte Path>"

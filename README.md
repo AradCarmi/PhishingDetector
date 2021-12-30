@@ -38,7 +38,6 @@
 </div>
 
 
-
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
@@ -48,6 +47,7 @@
       <ul>
         <li><a href="#built-with">Built With</a></li>
         <li><a href="#description">Description</a></li>
+        <li><a href="#features">Features</a></li>
       </ul>
     </li>
     <li>
@@ -63,8 +63,6 @@
   </ol>
 </details>
 
-
-
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
@@ -75,12 +73,12 @@ This project aims to detect and alert the user from phishing webpages.
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
-
 ### Built With
 
 * [Chrome Extension](https://developer.chrome.com/docs/extensions/)
 * [Sklearn.py](https://scikit-learn.org/stable/)
 * [Express.js](https://expressjs.com/)
+* [Dataset](https://www.kaggle.com/shashwatwork/phishing-dataset-for-machine-learning)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -94,11 +92,90 @@ This project aims to detect and alert the user from phishing webpages.
      <a href="https://github.com/aradcarmi/PhishingDetector">
     <img src="images/Accuracy.png" alt="accuracy" width="100" height="100">
     </a>
-
-
+ 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
+### Features
+  * Feature value can be:
+    * Number [0,+inf)
+    * Custom [-1,0,1] (Error/No/Yes)
+    
+  <table>
+  <tr>
+    <th>Feature Name</th>
+    <th>Value</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>NumDots</td>
+    <td>Number</td>
+    <td>Count the number of '.' in the url</td>
+  </tr>
+  <tr>
+    <td>SubdomainLevel</td>
+    <td>Number</td>
+    <td>Count the number of Subdomain in the url</td>
+  </tr>
+   <tr>
+    <td>PathLevel</td>
+    <td>Number</td>
+    <td>Count the number of '/' in the path of the url</td>
+  </tr>
+  <tr>
+    <td>UrlLength</td>
+    <td>Number</td>
+    <td>Url length</td>
+  </tr>
+  <tr>
+    <td>NumDash</td>
+    <td>Number</td>
+    <td>Count the number of '-' in the url</td>
+  </tr>
+  <tr>
+    <td>AtSymbol</td>
+    <td>Custom</td>
+    <td>Check if url have '@' symbol</td>
+  </tr>
+  <tr>
+    <td>TildeSymbol</td>
+    <td>Custom</td>
+    <td>Check if url have '~' symbol</td>
+  </tr>
+  <tr>
+    <td>NoHttps</td>
+    <td>Custom</td>
+    <td>Check if url start with "https"</td>
+  </tr>
+  <tr>
+    <td>PopUpWindow</td>
+    <td>Custom</td>
+    <td>Check if url have popup window</td>
+  </tr>
+  <tr>
+    <td>DomainInSubdomains</td>
+    <td>Custom</td>
+    <td>Check if url have domain in subdomains</td>
+  </tr>
+  <tr>
+    <td>QueryLength</td>
+    <td>Number</td>
+    <td>Query length</td>
+  </tr>
+  <tr>
+    <td>NumQueryComponents</td>
+    <td>Number</td>
+    <td>Count the number of query components (The number of '=' after '?')</td>
+  </tr>
+  <tr>
+    <td>NumSensitiveWords</td>
+    <td>Number</td>
+    <td>Count the number of sensitive words (such as "secure", "account", "webscr", "login","ebayisapi", "signin", "banking", "confirm",...etc)</td>
+  </tr>
+  
+</table>
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 
 <!-- GETTING STARTED -->

@@ -209,9 +209,9 @@ To get a local copy up and running follow these simple example steps.
   modelPath = "<Absoulte Path>"
   ```
 5. Run in Chrome Extension folder:
-    ``` sh 
-  npm install express
-  ```
+  ```sh
+   npm install express
+   ```
 6. Open your web browser and click on the extension icon and perss on "Manage Extensions"
    
    <a href="https://github.com/aradcarmi/PhishingDetector">

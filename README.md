@@ -56,12 +56,9 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#run">Run</a></li>
     <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
@@ -114,36 +111,27 @@ To get a local copy up and running follow these simple example steps.
     <img src="images/chromeExtension.png" alt="Logo" width="130" height="130">
     </a>
 5. Toggle the "Developer Mode" button on the right side of the webpage
+
   <a href="https://github.com/aradcarmi/PhishingDetector">
     <img src="images/DevMode.png" alt="Logo" width="100" height="100">
     </a>
+    
 6. Pick Load unpack option on the left side of the webpage and upload "./Chrome Extension" folder
-
+  
+  <a href="https://github.com/aradcarmi/PhishingDetector">
+    <img src="images/LoadExtension.png" alt="Logo" width="400" height="180">
+    </a>
+    
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-### Running
-1. 
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [] Feature 1
-- [] Feature 2
-- [] Feature 3
-    - [] Nested Feature
-
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
+### Run
+1. Open Terminal/CMD.
+2. Navigate to the "Chrome Extension" folder.
+3. Run The following command:
+``` sh 
+  node host.js
+  ```
+4. Now The Extension will work and alerts for phishing sites.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -166,36 +154,14 @@ Don't forget to give the project a star! Thanks again!
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+aradca@post.bgu.ac.il
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-* []()
-* []()
-* []()
+Project Link: [https://github.com/AradCarmi/PhishingDetector](https://github.com/AradCarmi/PhishingDetector)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
 
 
 <!-- MARKDOWN LINKS & IMAGES -->

@@ -273,12 +273,12 @@ Project Link: [https://github.com/AradCarmi/PhishingDetector](https://github.com
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/aradcarmi/PhishingDetector.svg?style=for-the-badge
 [contributors-url]: https://github.com/aradcarmi/PhishingDetector/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/aradcarmi/PhishingDetector.svg?style=for-the-badge
 [forks-url]: https://github.com/aradcarmi/PhishingDetector/network/members
 [stars-shield]: https://img.shields.io/github/stars/aradcarmi/PhishingDetector.svg?style=for-the-badge
 [stars-url]: https://github.com/aradcarmi/PhishingDetector/stargazers
-[issues-shield]: https://img.shields.io/github/issues/github_username/repo_name.svg?style=for-the-badge
-[issues-url]: https://github.com/github_username/repo_name/issues
+[issues-shield]: https://img.shields.io/github/issues/aradcarmi/PhishingDetector.svg?style=for-the-badge
+[issues-url]: https://github.com/aradcarmi/PhishingDetector/issues
 [product-screenshot]: images/screenshot.png

@@ -111,7 +111,7 @@ To get a local copy up and running follow these simple example steps.
 4. Open your web browser and click on the extension icon
    
    <a href="https://github.com/aradcarmi/PhishingDetector">
-    <img src="images/chromeExtension.png" alt="Logo" width="100" height="100">
+    <img src="images/chromeExtension.png" alt="Logo" width="130" height="130">
     </a>
    
 4. Enter your API in `config.js`

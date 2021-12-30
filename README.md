@@ -172,7 +172,6 @@ This project aims to detect and alert the user from phishing webpages.
     <td>Number</td>
     <td>Count the number of sensitive words (such as "secure", "account", "webscr", "login","ebayisapi", "signin", "banking", "confirm",...etc)</td>
   </tr>
-  
 </table>
 
 <p align="right">(<a href="#top">back to top</a>)</p>

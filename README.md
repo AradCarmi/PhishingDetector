@@ -263,6 +263,7 @@ Don't forget to give the project a star! Thanks again!
 <!-- CONTACT -->
 ## Contact
 hareldv@post.bgu.ac.il
+
 aradca@post.bgu.ac.il
 
 Project Link: [https://github.com/AradCarmi/PhishingDetector](https://github.com/AradCarmi/PhishingDetector)

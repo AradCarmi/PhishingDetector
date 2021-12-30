@@ -197,7 +197,7 @@ To get a local copy up and running follow these simple example steps.
    git clone https://github.com/AradCarmi/PhishingDetector.git
    ```
 2. Open ./PhishingProject/Main.py
-3. Add the absolute path:
+3. Add the absolute path(dataset suffix .csv,Model suffix .sav):
   ``` sh 
   dataSetPath = "<Absoulte Path>"
   whiteListPath = "<Absoulte Path>"
@@ -206,12 +206,12 @@ To get a local copy up and running follow these simple example steps.
 4. Open your web browser and click on the extension icon and perss on "Manage Extensions"
    
    <a href="https://github.com/aradcarmi/PhishingDetector">
-    <img src="images/chromeExtension.png" alt="Logo" width="130" height="130">
+    <img src="images/chromeExtension.png" alt="Logo" width="180" height="130">
     </a>
 5. Toggle the "Developer Mode" button on the right side of the webpage
 
   <a href="https://github.com/aradcarmi/PhishingDetector">
-    <img src="images/DevMode.png" alt="Logo" width="100" height="100">
+    <img src="images/DevMode.png" alt="Logo" width="130" height="100">
     </a>
     
 6. Pick Load unpack option on the left side of the webpage and upload "./Chrome Extension" folder

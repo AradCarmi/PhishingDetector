@@ -14,7 +14,7 @@
 [![Issues][issues-shield]][issues-url]
 
 
-
+<h3 align="center">Phishing Detector</h3>
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
@@ -22,7 +22,7 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">Phishing Detector</h3>
+
 
   <p align="center">
     project_description

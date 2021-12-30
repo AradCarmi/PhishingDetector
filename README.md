@@ -96,8 +96,8 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-Clone the PhishingProject dir.
-* git clone https://github.com/AradCarmi/PhishingDetector.git
+Clone the PhishingProject dir using the terminal/cmd command.
+* "git clone https://github.com/AradCarmi/PhishingDetector.git"
 
 ### Installation
 

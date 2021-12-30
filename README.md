@@ -109,11 +109,11 @@ To get a local copy up and running follow these simple example steps.
   whiteListPath = "<Absoulte Path>"
   ```
 4. Open your web browser and click on the extension icon
-   ```
+   
    <a href="https://github.com/aradcarmi/PhishingDetector">
     <img src="images/chromeExtension.png" alt="Logo" width="40" height="40">
     </a>
-   ```
+   
 4. Enter your API in `config.js`
    ```js
    const API_KEY = 'ENTER YOUR API';

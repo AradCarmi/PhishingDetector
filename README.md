@@ -191,6 +191,7 @@ To get a local copy up and running follow these simple example steps.
   * Download & Install Python  (Version 3.7 or later) https://www.python.org/downloads/
   * Download & Install Pip https://pip.pypa.io/en/stable/cli/pip_install/
   * Download & Install Node.js (Version 13 or later)  https://nodejs.org/en/
+  * Download & Install Npm (Version 6 or later)  https://docs.npmjs.com/about-npm
   
 ### Installation
 1. Clone the repo
@@ -207,18 +208,21 @@ To get a local copy up and running follow these simple example steps.
   whiteListPath = "<Absoulte Path>"
   modelPath = "<Absoulte Path>"
   ```
-4. Open your web browser and click on the extension icon and perss on "Manage Extensions"
+5. Run in Chrome Extension folder:
+    ``` sh 
+  npm install express
+  ```
+6. Open your web browser and click on the extension icon and perss on "Manage Extensions"
    
    <a href="https://github.com/aradcarmi/PhishingDetector">
     <img src="images/chromeExtension.png" alt="Logo" width="180" height="130">
     </a>
-5. Toggle the "Developer Mode" button on the right side of the webpage
+7. Toggle the "Developer Mode" button on the right side of the webpage
 
   <a href="https://github.com/aradcarmi/PhishingDetector">
     <img src="images/DevMode.png" alt="Logo" width="130" height="100">
-    </a>
-    
-6. Pick Load unpack option on the left side of the webpage and upload "./Chrome Extension" folder
+    </a>  
+8. Pick Load unpack option on the left side of the webpage and upload "./Chrome Extension" folder
   
   <a href="https://github.com/aradcarmi/PhishingDetector">
     <img src="images/LoadExtension.png" alt="Logo" width="400" height="180">

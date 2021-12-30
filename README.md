@@ -47,6 +47,7 @@
       <a href="#about-the-project">About The Project</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
+        <li><a href="#description">Description</a></li>
       </ul>
     </li>
     <li>
@@ -82,6 +83,21 @@ This project aims to detect and alert the user from phishing webpages.
 * [Express.js](https://expressjs.com/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
+
+### Description
+
+* The purpose of the project is to locate phishing activity and alert the user using the chrome extension tool.
+* The classification of the site is based on a model of decision tree.
+* The model is traind on 10,000 urls when half are phishing sites and half are not.
+* The accuracy of the machine is 88%:
+
+     <a href="https://github.com/aradcarmi/PhishingDetector">
+    <img src="images/Accuracy.png" alt="accuracy" width="100" height="100">
+    </a>
+
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 
 
 
@@ -157,7 +173,7 @@ Don't forget to give the project a star! Thanks again!
 
 <!-- CONTACT -->
 ## Contact
-dvir.. @post.bgu.ac.il
+hareldv@post.bgu.ac.il
 aradca@post.bgu.ac.il
 
 Project Link: [https://github.com/AradCarmi/PhishingDetector](https://github.com/AradCarmi/PhishingDetector)

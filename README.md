@@ -229,7 +229,7 @@ To get a local copy up and running follow these simple example steps.
 ``` sh 
   node host.js <Your absolute path to project folder>
   ```
-4. Now The Extension will work and alerts for phishing sites.
+4. Now The Extension will work and will alert for phishing sites.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 

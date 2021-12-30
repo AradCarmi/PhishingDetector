@@ -189,6 +189,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
   * Download & Install Python  (Version 3.7 or later) https://www.python.org/downloads/
+  * Download & Install Pip https://pip.pypa.io/en/stable/cli/pip_install/
   * Download & Install Node.js (Version 13 or later)  https://nodejs.org/en/
   
 ### Installation
@@ -196,8 +197,10 @@ To get a local copy up and running follow these simple example steps.
    ```sh
    git clone https://github.com/AradCarmi/PhishingDetector.git
    ```
-2. Open ./PhishingProject/Main.py
-3. Add the absolute path(under Additives folder: dataset suffix .csv,Model suffix .sav):
+2. Open "Model.py" ,"Main.py", "Features.py":
+    pip install all imports here some [guidance](https://www.youtube.com/watch?v=sIan8TOz0GA) 
+3. Open ./Main.py
+4. Add the absolute path(under Additives folder: dataset suffix .csv,Model suffix .sav):
   ``` sh 
   dataSetPath = "<Absoulte Path>"
   whiteListPath = "<Absoulte Path>"

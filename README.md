@@ -92,7 +92,8 @@ This is an example of how you may give instructions on setting up your project l
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
-
+  * Download & Install Python  (Version 3.7 or later) https://www.python.org/downloads/
+  * Download & Install Node.js (Version 13 or later)  https://nodejs.org/en/
 ### Installation
 
 1. Clone the repo
@@ -156,7 +157,7 @@ Don't forget to give the project a star! Thanks again!
 
 <!-- CONTACT -->
 ## Contact
-
+dvir.. @post.bgu.ac.il
 aradca@post.bgu.ac.il
 
 Project Link: [https://github.com/AradCarmi/PhishingDetector](https://github.com/AradCarmi/PhishingDetector)

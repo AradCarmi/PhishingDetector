@@ -109,7 +109,7 @@ To get a local copy up and running follow these simple example steps.
   whiteListPath = "<Absoulte Path>"
   ```
 4. Open your web browser and click on the extension icon
-   ```sh
+   ```
    <a href="https://github.com/aradcarmi/PhishingDetector">
     <img src="images/chromeExtension.png" alt="Logo" width="40" height="40">
    ```
